@@ -1,0 +1,407 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+body {
+    margin-top: 0px;
+    /* height: 100vh;
+    width: 100vw; */
+    /* background-color: rgb(255, 255, 251); */
+    /* background-image: url('bg.jpeg'); */
+    overflow: hidden;
+    background-size: cover;
+    height: 100vh;
+    /* z-index: 110; */
+    z-index: -1;
+}
+
+.taskbar {
+    background-color: #f3f3f3;
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+    cursor: pointer;
+    /* z-index: 110; */
+}
+
+.b img {
+    position: absolute;
+    width: 87px;
+    height: 34px;
+    margin-left: -174px;
+    z-index: -1;
+}
+
+.vs img {
+    position: absolute;
+    width: 25px;
+    height: 26px;
+    margin-left: -128px;
+    margin-top: 7px;
+    z-index: 150;
+}
+
+.mic img {
+    position: absolute;
+    width: 28px;
+    height: 25px;
+    margin-left: -172px;
+    z-index: 150;
+    margin-top: 8px;
+}
+
+.mic img:hover {
+    cursor: pointer;
+}
+
+#v a{
+    padding: 3px 4px;
+    margin-bottom: -42px;
+    margin-top: 6px;
+    margin-left: -119px;
+    text-decoration: none;
+    color: white;
+}
+
+#veiwport {
+    padding: 3px 4px;
+    margin-bottom: -42px;
+    margin-top: 11px;
+    margin-left: -114px;
+    text-decoration: none;
+    color: #362323;
+    font-size: 11px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 150;
+}
+
+#m {
+    margin-top: -8px;
+    margin-left: -168px;
+    padding-top: 38px;
+    color: #f3f3f3;
+    position: absolute;
+    font-size: 14px;
+
+}
+
+#ic {
+    cursor: pointer;
+}
+
+#right {
+    position: absolute;
+    right: 0;
+    margin-top: 6px;
+    margin-left: 22px;
+    height: 79%;
+}
+
+video {
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    margin-bottom: 110px;
+    z-index: -1;
+    margin-top: -40px;
+}
+
+
+.startmenu img {
+    height: 82vh;
+    width: 45vw;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 50px;
+    cursor: pointer;
+    color:white;
+}
+
+
+
+.startmenu {
+    width: 100vw;
+    position: absolute;
+    /* bottom: -79px; */
+    bottom: -539px;
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    transition: all 0.1s ease-in;
+
+}
+
+
+
+.icon img {
+    position: absolute;
+    bottom: 0;
+    width: 39px;
+    height: 32px;
+    margin-left: -339px;
+    margin-bottom: 5px;
+    height: 34px;
+    z-index: 120;
+}
+
+
+
+a {
+    z-index: 150;
+    position: absolute;
+    padding-bottom: 53px;
+    padding-top: px;
+    padding: 3px 4px;
+    margin-bottom: -42px;
+    margin-top: 64px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+}
+
+/* ----------------------------------------------------------------------- */
+
+.iconcontainer-1 {
+    /* border: 2px solid red; */
+    height: 92vh;
+    width: 50vw;
+    position: absolute;
+    z-index: 170;
+    margin-top: 63px;
+
+}
+
+.iconcontainer-1 img {
+    width: 62px;
+    height: 49px;
+    position: absolute;
+    z-index: 130;
+    cursor: pointer;
+    margin-top: 45px;
+    padding-left: 45px;
+    padding: 34px 23px;
+
+}
+
+.apps {
+    height: 12px;
+    width: 21px;
+    padding: 3px 3px;
+    padding-bottom: 4px;
+    margin: 67px 3px;
+    margin-top: 0px;
+    margin-bottom: 82px;
+}
+
+
+#chrome {
+    height: 54px;
+    width: 103px;
+    margin-left: -37px;
+    margin-top: -26px;
+}
+
+#yt {
+    height: 83px;
+    width: 108px;
+    margin-top: -47px;
+    margin-left: -39px;
+
+}
+
+#i1 {
+    margin-top: -47px;
+    margin-left: -17px;
+}
+
+#an {
+    margin-top: -69px;
+    margin-left: 2px;
+}
+
+#an1 {
+    margin-top: 56px;
+    margin-left: 7px;
+    padding-top: 77px;
+    /* z-index: -1; */
+    margin-top: -16px;
+    font-size: 16px;
+
+}
+
+#an6 {
+    margin-top: 56px;
+    margin-left: 7px;
+    padding-top: 2px;
+    font-size: 16px;
+    margin-top: -16px;
+}
+
+#twi {
+    height: 63px;
+    width: 67px;
+    margin-top: -47px;
+    font-size: 16px;
+    margin-left: -19px;
+}
+
+#an3 {
+    margin-top: -11px;
+    margin-left: 12px;
+    font-size: 16px;
+    padding-top: 59px;
+}
+
+#an4 {
+    margin-top: -16px;
+    margin-left: 2px;
+    font-size: 16px;
+    padding-top: 52px;
+}
+
+#an5 {
+    margin-top: -42px;
+    margin-left: 14px;
+    font-size: 16px;
+    padding-top: 78px;
+}
+
+#an6 {
+    margin-top: -28px;
+    margin-left: 6px;
+    font-size: 16px;
+    padding-top: 80px;
+}
+
+#ap {
+    margin-top: 100px;
+}
+
+#ap1 {
+    margin-top: 84px;
+}
+
+#ap2 {
+    margin-top: 84px;
+}
+
+/* ------------------------------------------------------------------------------------------ */
+
+
+.iconcontainer-2 {
+    /* border: 2px solid red; */
+    height: 92vh;
+    width: 50vw;
+    position: absolute;
+    z-index: 170;
+    margin-left: 90px;
+    margin-top: 63px;
+}
+
+.iconcontainer-1 img {
+    width: 62px;
+    height: 49px;
+    position: absolute;
+    z-index: 130;
+    cursor: pointer;
+    margin-top: 45px;
+    padding-left: 45px;
+    padding: 34px 23px;
+
+}
+
+.apps {
+    height: 12px;
+    width: 21px;
+    padding: 3px 3px;
+    padding-bottom: 4px;
+    margin: 67px 3px;
+    margin-top: 0px;
+    margin-bottom: 82px;
+}
+
+
+#tele {
+    height: 57px;
+    width: 62px;
+    margin-left: 39px;
+    margin-top: 5px;
+}
+
+#mail {
+    height: 54px;
+    width: 91px;
+    margin-left: 26px;
+    margin-top: -1px;
+}
+
+#link {
+    height: 67px;
+    width: 82px;
+    margin-left: 32px;
+    margin-top: -7px;
+}
+
+#insta {
+    height: 54px;
+    width: 62px;
+    margin-left: 42px;
+    margin-top: 4px;
+}
+
+#google {
+    height: 75px;
+    width: 83px;
+    margin-left: 30px;
+    margin-top: 1px;
+}
+
+#ann1 {
+    margin-top: -66px;
+    margin-left: 37px;
+    font-size: 16px;
+    padding-top: 59px;
+}
+
+#ann2 {
+    margin-top: -88px;
+    margin-left: 47px;
+    font-size: 16px;
+    padding-top: 81px;
+}
+
+#ann3 {
+    margin-top: -95px;
+    margin-left: 40px;
+    font-size: 16px;
+    padding-top: 81px;
+}
+
+#ann4 {
+    margin-top: -89px;
+    margin-left: 37px;
+    font-size: 16px;
+    padding-top: 83px;
+}
+
+
+
+#ann5 {
+    margin-top: -75px;
+    margin-left: 44px;
+    font-size: 16px;
+    padding-top: 65px;
+}
