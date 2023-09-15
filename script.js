@@ -1,19 +1,14 @@
 let win = document.getElementById("win");
 let startmenu = document.getElementsByClassName("startmenu")[0];
-
 let icons = document.getElementsByClassName("icon")[0];
 let taskbar = document.getElementsByClassName("taskbar")[0];
 let ann5 = document.getElementById("ann5");
-
-
-
 
 icons.addEventListener("click", () => {
     if (startmenu.style.bottom == "1px") {
         console.log("clicked");
         startmenu.style.bottom = "-1055px";
     }
-
     else {
         console.log("clicked 1");
 
@@ -21,24 +16,20 @@ icons.addEventListener("click", () => {
     }
 });
 
-
-prefs.sourceFolder=Folder('C:\\Users\\Datta-Mayuri Kale\\Documents\\Desktop');
-var sourceFolder=Folder.selectDialog('where',Folder(prefs.sourceFolder));
+prefs.sourceFolder = Folder('C:\\Users\\Datta-Mayuri Kale\\Documents\\Desktop');
+var sourceFolder = Folder.selectDialog('where', Folder(prefs.sourceFolder));
 
 ann5.addEventListener("click", () => {
-    if (!sourceFolder ) {
+    if (!sourceFolder) {
         console.log("hi");
-      return sourceFolder;
+        return sourceFolder;
 
     }
-    else  if(!sourceFolder.exists){
-        alert("not found",'Script Stopped',true);
-        return;  
+    else if (!sourceFolder.exists) {
+        alert("not found", 'Script Stopped', true);
+        return;
     }
 });
-
-
-
 
 function li() {
     console.log("kale");
@@ -60,3 +51,5 @@ iconsapps.addEventListener("click", () => {
     //     document.body.appendChild(a);
     chrome.ClassList.target.appendChild(li());
 });
+
+// Code By- DATTA KALE
